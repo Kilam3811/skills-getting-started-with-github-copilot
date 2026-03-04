@@ -65,7 +65,7 @@ class TestSignupEndpoint:
 
 
 class TestRemoveParticipantEndpoint:
-    """Tests for DELETE /participants endpoint."""
+    """Tests for DELETE /activities/{activity}/participants endpoint."""
 
     def test_remove_participant_success(self, client):
         # Arrange
