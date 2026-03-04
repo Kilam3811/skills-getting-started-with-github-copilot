@@ -74,6 +74,38 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants {
+  margin-top: 10px;
+}
+
+.participants-list {
+  margin-top: 6px;
+  padding-left: 0;
+  list-style-type: none; /* hide bullets */
+}
+
+.participants-list li {
+  margin-bottom: 6px;
+  color: #37474f;
+  font-size: 14px;
+}
+
+.no-participants {
+  color: #757575;
+  font-style: italic;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #c62828;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.delete-participant:hover {
+  color: #e53935;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
